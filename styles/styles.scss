@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    .header__container{
+        border: 1px solid black;
+        display: flex;
+        width: 100vw;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        .logo{
+            border: 1px solid red;
+            width: 20vw;
+            height: 100%;
+        }
+        &__navbar{
+            width: 50vw;
+        }
+    }
+    .inscripcion{
+        display: flex;
+        margin-bottom: 50px;
+        &__container{
+            border: 2px dashed red;
+            width: 90vw;
+            height: 30vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+    .redes{
+        border: 1px solid black;
+        margin-bottom: 50px;
+        width: 90vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        &__title{
+            border: 1px solid black;
+        }
+        &__container{
+            width: 90vw;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+    }
+    .tour{
+        border: 1px solid green;
+        margin-bottom: 50px;
+        justify-content: center;
+        width: 70vw;
+        height: 15vh;
+        &__video{
+            border: 1px solid blue;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 20vw;
+                text-align: center;
+            }
+        }
+    }
+    .gallery{
+        width: 100vw;
+        margin-bottom: 50px;
+        &__container{
+            .carousel{
+                .d-block{
+                    height: 300px;
+                }
+
+            }
+        }
+    }
+    footer{
+        border: 1px solid black;
+        width: 90vw;
+        display: flex;
+        .footer__container{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            &__contact{
+                width: 60%;
+                font-size: 8px;
+            }
+            &__map{
+                border-left: 1px solid black;
+                width: 40%;
+            }
+        }
+    }
+}

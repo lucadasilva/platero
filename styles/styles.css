@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap; }
+  body .header__container {
+    border: 1px solid black;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-bottom: 50px; }
+    body .header__container .logo {
+      border: 1px solid red;
+      width: 20vw;
+      height: 100%; }
+    body .header__container__navbar {
+      width: 50vw; }
+  body .inscripcion {
+    display: flex;
+    margin-bottom: 50px; }
+    body .inscripcion__container {
+      border: 2px dashed red;
+      width: 90vw;
+      height: 30vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+  body .redes {
+    border: 1px solid black;
+    margin-bottom: 50px;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    body .redes__title {
+      border: 1px solid black; }
+    body .redes__container {
+      width: 90vw;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around; }
+  body .tour {
+    border: 1px solid green;
+    margin-bottom: 50px;
+    justify-content: center;
+    width: 70vw;
+    height: 15vh; }
+    body .tour__video {
+      border: 1px solid blue;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body .tour__video div {
+        width: 20vw;
+        text-align: center; }
+  body .gallery {
+    width: 100vw;
+    margin-bottom: 50px; }
+    body .gallery__container .carousel .d-block {
+      height: 300px; }
+  body footer {
+    border: 1px solid black;
+    width: 90vw;
+    display: flex; }
+    body footer .footer__container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+      body footer .footer__container__contact {
+        width: 60%;
+        font-size: 8px; }
+      body footer .footer__container__map {
+        border-left: 1px solid black;
+        width: 40%; }
+
+/*# sourceMappingURL=styles.css.map */
