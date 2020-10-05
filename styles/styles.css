@@ -5,18 +5,15 @@
 body {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  background-image: url(/styles/images/fondogral.gif);
+  background-size: auto; }
   body .header__container {
-    border: 1px solid black;
     display: flex;
     width: 100vw;
     justify-content: space-between;
     margin-bottom: 50px; }
     body .header__container .logo {
-      border: 1px solid red;
-      width: 20vw;
-      height: 100%; }
-    body .header__container__navbar {
       width: 50vw; }
   body .inscripcion {
     display: flex;
@@ -28,28 +25,37 @@ body {
       display: flex;
       justify-content: flex-end;
       align-items: center; }
+      body .inscripcion__container__btn .botoncito {
+        background-color: black;
+        width: 10%;
+        height: 50px;
+        text-decoration: none; }
   body .redes {
-    border: 1px solid black;
     margin-bottom: 50px;
     width: 90vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
     body .redes__title {
-      border: 1px solid black; }
+      text-align: center; }
     body .redes__container {
       width: 90vw;
+      height: 50px;
       display: flex;
       flex-flow: row wrap;
+      align-items: center;
       justify-content: space-around; }
+      body .redes__container__icons .fab {
+        color: black; }
   body .tour {
     border: 1px solid green;
     margin-bottom: 50px;
     justify-content: center;
-    width: 70vw;
+    width: 80vw;
     height: 15vh; }
     body .tour__video {
       border: 1px solid blue;
+      width: 80vw;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -58,23 +64,27 @@ body {
         width: 20vw;
         text-align: center; }
   body .gallery {
-    width: 100vw;
-    margin-bottom: 50px; }
-    body .gallery__container .carousel .d-block {
-      height: 300px; }
-  body footer {
-    border: 1px solid black;
+    border: 1px dashed red;
+    display: flex;
     width: 90vw;
-    display: flex; }
+    margin-bottom: 30px; }
+    body .gallery__container {
+      border: 1px dashed blue;
+      width: 100%; }
+      body .gallery__container .carousel .d-block {
+        height: 300px; }
+  body footer {
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap; }
     body footer .footer__container {
       display: flex;
+      flex-flow: row wrap;
       width: 100%;
       justify-content: space-between; }
       body footer .footer__container__contact {
-        width: 60%;
-        font-size: 8px; }
+        font-size: 12px; }
       body footer .footer__container__map {
-        border-left: 1px solid black;
-        width: 40%; }
+        border-left: 1px solid black; }
 
 /*# sourceMappingURL=styles.css.map */
