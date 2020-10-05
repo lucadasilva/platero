@@ -113,3 +113,47 @@ body{
         }
     }
 }
+.quienes{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    &__container{
+        display: flex;
+        width: 90vw;
+        flex-flow: row wrap;
+        &__content{
+            text-align: justify;
+            .title{
+                border: 1px solid blue;
+            }
+            .text{
+            
+                .bold{
+                    font-weight: bold;
+                }
+                
+            }
+            .special{
+                border: 1px solid black;
+                text-transform: uppercase;
+            }
+        }
+        &__aside{
+            border: 1px solid black;
+            width: 90vw;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            &__img{
+                border: 1px solid red;
+                width: 400px;
+                max-height: 400px;
+                .aside--img{
+                    max-width: 400px;
+                    max-height: 400px;
+                }
+            }
+        }
+    }
+    
+}

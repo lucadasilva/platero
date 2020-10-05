@@ -87,4 +87,35 @@ body {
       body footer .footer__container__map {
         border-left: 1px solid black; }
 
+.quienes {
+  display: flex;
+  justify-content: center;
+  width: 90vw; }
+  .quienes__container {
+    display: flex;
+    width: 90vw;
+    flex-flow: row wrap; }
+    .quienes__container__content {
+      text-align: justify; }
+      .quienes__container__content .title {
+        border: 1px solid blue; }
+      .quienes__container__content .text .bold {
+        font-weight: bold; }
+      .quienes__container__content .special {
+        border: 1px solid black;
+        text-transform: uppercase; }
+    .quienes__container__aside {
+      border: 1px solid black;
+      width: 90vw;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around; }
+      .quienes__container__aside__img {
+        border: 1px solid red;
+        width: 400px;
+        max-height: 400px; }
+        .quienes__container__aside__img .aside--img {
+          max-width: 400px;
+          max-height: 400px; }
+
 /*# sourceMappingURL=styles.css.map */
