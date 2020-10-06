@@ -69,7 +69,7 @@ header nav .menu ul li a:active {
 
 /*animación del menu que se desplega*/
 header nav .menu input[type="checkbox"]:checked ~ ul {
-  height: 224px;
+  height: 50%;
   transition: height 0.5s ease-in-out;
   -moz-transition: height 0.5s ease-in-out;
   -o-transition: height 0.5s ease-in-out;

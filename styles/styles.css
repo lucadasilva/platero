@@ -10,11 +10,14 @@ body {
   background-size: cover; }
   body .header__container {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     justify-content: space-between;
     margin-bottom: 50px; }
-    body .header__container .logo {
-      width: 50vw; }
+    body .header__container__logo .logo {
+      width: 50vw;
+      height: 150px; }
+    body .header__container nav {
+      border: 1px dashed green; }
   body .inscripcion {
     display: flex;
     margin-bottom: 50px; }

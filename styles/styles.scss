@@ -10,12 +10,20 @@ body{
     background-size: cover;
     .header__container{
         display: flex;
-        width: 100vw;
+        width: 90vw;
         justify-content: space-between;
         margin-bottom: 50px;
-        .logo{
-            width: 50vw;
+        &__logo{
+            .logo{
+                width: 50vw;
+                height: 150px;
+            }
+        
         }
+        nav{
+            border: 1px dashed green;
+        }
+        
     }
     .inscripcion{
         display: flex;
